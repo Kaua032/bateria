@@ -36,6 +36,13 @@ h1{
     align-items: center;
     font-size: 4rem;
     font-weight: bold;
+    cursor: pointer;
+}
+.key:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+.active {
+    border: 2px solid var(--base-color-second);
 }
 .composer{
     width: 26rem;
@@ -46,4 +53,22 @@ h1{
     outline: none;
     font-size: 1.7rem;
     padding: 1rem 1.5rem;
+}
+.composer button{
+    width: 100%;
+    height: 4rem;
+    font-size: 2rem;
+    background: none;
+    border: 0.2rem solid var(--title-color);
+    color: var(--title-color);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.composer button:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+footer{
+    color: var(--title-color);
+    margin-top: 2rem;
+    font-size: 2rem;
 }
